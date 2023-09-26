@@ -24,8 +24,8 @@ GRANT CONNECT, RESOURCE TO desarrollo;
 alter session set "_ORACLE_SCRIPT"=true;
 
 ++++++++++++++++++++++++++Insertamos datos ala tablaa como prueba++++++++++++
-insert into prod values (1,'Bryan Amaya Delgado');
-insert into prod values (2,'Sarai Hernandez Rios');
+insert into prod values (1,'Bryan');
+insert into prod values (2,'Sarai');
 
 +++++++++++++++++++hacemos un commit para confitmar las transacciones realizadas en la base++++++++++
 commit;
